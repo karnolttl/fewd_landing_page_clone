@@ -1,20 +1,21 @@
+* {
+  outline: 1px solid Chocolate;
+}
+
 body {
   background-color: LightGray;
 }
-div, .logo, .links {
-  border: 1px solid Chocolate;
-}
+/*div, .logo, .links {
+  outline: 1px solid Chocolate;
+}*/
 /*You can center content by using the combination
 of auto left and right margins
 with a width less than 100%.*/
 .content {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0 auto;
   padding: 0 0.938rem;
   min-width: 37.5rem;
-  width: 60%;
+  width: 80%;
 }
 
 .top-navigation {

@@ -25,7 +25,7 @@ html {
 }
 
 *, *:before, *:after {
-  /*outline: 1px solid Chocolate;*/
+  outline: 1px solid Chocolate;
   box-sizing: inherit;
 }
 
@@ -130,4 +130,27 @@ button {
 button:hover {
   background-color: #d9400e;
   cursor: pointer;
+}
+.information {
+  background-color: white;
+  height: 40rem;
+}
+
+.information .content {
+  text-align: center;
+}
+
+.information .content h1 {
+  margin-top: 5rem;
+  font-size: 3.125rem;
+}
+
+.information .icons li{
+  display: inline-block;
+  margin: 1.5rem 3rem;
+}
+
+.information .icons li h4 {
+  margin-top: 1.75rem;
+  font-size: 1.563rem;
 }

@@ -30,7 +30,6 @@ html {
 }
 
 body {
-  background-color: LightGray;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
@@ -134,28 +133,52 @@ button:hover {
 
 .cases {
   background-color: white;
-  height: 40rem;
+  padding-bottom: 5rem;
 }
 
 .cases .content {
+  margin-top: 7.875rem;
   text-align: center;
   vertical-align: top;
 }
 
 .cases h2 {
+  margin-top: 5rem;
   font-size: 2.75rem;
-  margin: 1.624rem 0 3.125rem;
   font-weight: 300;
 }
 
 .cases .devices {
   width: 33.3333333%;
   display: inline-block;
+  height: auto;
   margin-right: -3px;
 }
 
 .cases h4 {
   margin: 2.5rem 0px 1.875rem;
   font-size: 1.563rem;
-  font-weight: 400;
+}
+
+.footer .content {
+  text-align: center;
+  vertical-align: middle;
+  border-top: .0625rem solid LightGrey;
+}
+
+.footer h6 {
+  margin: 1.5rem 0;
+}
+
+.footer .social-icons {
+  height: 2rem;
+  width: 2rem;
+  display: inline-block;
+  margin-right: .125rem;
+  border-radius: 50%;
+  border: .0625rem solid LightGrey;
+}
+
+.footer p {
+  margin: 1.5rem 0;
 }

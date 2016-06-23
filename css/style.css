@@ -131,26 +131,31 @@ button:hover {
   background-color: #d9400e;
   cursor: pointer;
 }
-.information {
+
+.cases {
   background-color: white;
   height: 40rem;
 }
 
-.information .content {
+.cases .content {
   text-align: center;
+  vertical-align: top;
 }
 
-.information .content h1 {
-  margin-top: 5rem;
-  font-size: 3.125rem;
+.cases h2 {
+  font-size: 2.75rem;
+  margin: 1.624rem 0 3.125rem;
+  font-weight: 300;
 }
 
-.information .icons li{
+.cases .devices {
+  width: 33.3333333%;
   display: inline-block;
-  margin: 1.5rem 3rem;
+  margin-right: -3px;
 }
 
-.information .icons li h4 {
-  margin-top: 1.75rem;
+.cases h4 {
+  margin: 2.5rem 0px 1.875rem;
   font-size: 1.563rem;
+  font-weight: 400;
 }
